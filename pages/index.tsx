@@ -12,27 +12,29 @@ const Home: NextPage = () => {
       </Head>
 
       <main className={styles.main}>
+        <div className={styles.photo}>
+          👨‍💻
+        </div>
         <h1 className={styles.title}>
-          👨‍💻<br/>
           Ramil Aminov
         </h1>
 
         <p className={styles.description}>
-          CTO &amp;&nbsp;Software&nbsp;Engineer
+          Software&nbsp;Engineer &amp;&nbsp;CTO
         </p>
 
         <div className={styles.grid}>
           <a href='https://github.com/ramilaminov/' target='_blank' rel='noopener noreferrer' className={styles.card}>
             <h2>GitHub &rarr;</h2>
             <p>
-              <code className={styles.code}>github.com/ramilaminov</code>
+              <code className={styles.code}>/ramilaminov</code>
             </p>
           </a>
 
-          <a href='https://habr.com/ru/users/ard/' target='_blank' rel='noopener noreferrer' className={styles.card}>
-            <h2>Habr &rarr;</h2>
+          <a href='https://www.linkedin.com/in/ramilaminov/' target='_blank' rel='noopener noreferrer' className={styles.card}>
+            <h2>LinkedIn &rarr;</h2>
             <p>
-              <code className={styles.code}>habr.com/ru/users/ard</code>
+              <code className={styles.code}>/in/ramilaminov</code>
             </p>
           </a>
         </div>
