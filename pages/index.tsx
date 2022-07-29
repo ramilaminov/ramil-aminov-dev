@@ -22,7 +22,7 @@ const Home: NextPage = () => {
         </p>
 
         <div className={styles.grid}>
-          <a href='https://github.com/ramilaminov' target='_blank' rel='noopener noreferrer' className={styles.card}>
+          <a href='https://github.com/ramilaminov/' target='_blank' rel='noopener noreferrer' className={styles.card}>
             <h2>GitHub &rarr;</h2>
             <p>
               <code className={styles.code}>github.com/ramilaminov</code>
@@ -32,7 +32,7 @@ const Home: NextPage = () => {
           <a href='https://habr.com/ru/users/ard/' target='_blank' rel='noopener noreferrer' className={styles.card}>
             <h2>Habr &rarr;</h2>
             <p>
-              <code className={styles.code}>habr.com/ru/users/ard/</code>
+              <code className={styles.code}>habr.com/ru/users/ard</code>
             </p>
           </a>
         </div>
