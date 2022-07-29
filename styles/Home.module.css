@@ -28,13 +28,8 @@
   flex-grow: 1;
 }
 
-.photo {
-  margin-bottom: 0.8rem;
-  font-size: 5rem;
-}
-
 .title {
-  margin: 0;
+  margin: 1rem 0 0 0;
   line-height: 1.15;
   font-size: 4rem;
 }

@@ -1,6 +1,8 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
+import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import photo from '../public/photo.png'
 
 const Home: NextPage = () => {
   return (
@@ -12,9 +14,13 @@ const Home: NextPage = () => {
       </Head>
 
       <main className={styles.main}>
-        <div className={styles.photo}>
-          👨‍💻
-        </div>
+        <Image
+          src={photo}
+          alt="Ramil Aminov"
+          width={150}
+          height={150}
+        />
+        
         <h1 className={styles.title}>
           Ramil Aminov
         </h1>
