@@ -18,7 +18,7 @@ const Home: NextPage = () => {
         </h1>
 
         <p className={styles.description}>
-          <code className={styles.code}><a href='https://github.com/ramilaminov' target='_blank'>github.com/ramilaminov</a></code>
+          <code className={styles.code}><a href='https://github.com/ramilaminov' target='_blank' rel='noreferrer'>github.com/ramilaminov</a></code>
         </p>
 
         <div className={styles.grid}>
