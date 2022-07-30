@@ -10,7 +10,10 @@ const Home: NextPage = () => {
       <Head>
         <title>Ramil Aminov</title>
         <meta name="description" content="Ramil Aminov" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+        <link rel="manifest" href="/site.webmanifest" />
       </Head>
 
       <main className={styles.main}>
@@ -30,18 +33,12 @@ const Home: NextPage = () => {
         </p>
 
         <div className={styles.grid}>
-          <a href='https://github.com/ramilaminov/' target='_blank' rel='noopener noreferrer' className={styles.card}>
-            <h2>GitHub &rarr;</h2>
-            <p>
-              <code className={styles.code}>/ramilaminov</code>
-            </p>
+          <a className={styles.card} href='https://github.com/ramilaminov/' target='_blank' rel='noopener noreferrer'>
+            <code><b>github</b>.com/ramilaminov</code>
           </a>
 
-          <a href='https://www.linkedin.com/in/ramilaminov/' target='_blank' rel='noopener noreferrer' className={styles.card}>
-            <h2>LinkedIn &rarr;</h2>
-            <p>
-              <code className={styles.code}>/in/ramilaminov</code>
-            </p>
+          <a className={styles.card} href='https://www.linkedin.com/in/ramilaminov/' target='_blank' rel='noopener noreferrer'>
+            <code><b>linkedin</b>.com/in/ramilaminov</code>
           </a>
         </div>
       </main>
