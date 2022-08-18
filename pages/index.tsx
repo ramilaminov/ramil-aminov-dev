@@ -40,6 +40,10 @@ const Home: NextPage = () => {
           <a className={styles.card} href='https://www.linkedin.com/in/ramilaminov/' target='_blank' rel='noopener noreferrer'>
             <code><b>linkedin</b>.com/in/ramilaminov</code>
           </a>
+
+          <a className={styles.card} href='https://dev.to/ramilaminov/' target='_blank' rel='noopener noreferrer'>
+            <code><b>dev.to</b>/ramilaminov</code>
+          </a>
         </div>
       </main>
     </div>
