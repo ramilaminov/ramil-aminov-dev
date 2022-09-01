@@ -52,6 +52,11 @@
 }
 
 @media (max-width: 600px) {
+  .main {
+    min-height: auto;
+    padding-top: 3rem;
+  }
+
   .grid {
     flex-direction: column;
     flex-wrap: nowrap;
