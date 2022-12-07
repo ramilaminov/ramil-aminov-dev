@@ -5,7 +5,7 @@ import photo from '../public/photo.png'
 
 const Home: NextPage = () => {
   return (
-    <div className="flex min-h-min sm:min-h-screen flex-col items-center justify-center pt-16 pb-9 sm:pt-2 sm:pb-16">
+    <div className="flex sm:min-h-screen pt-16 pb-9 sm:pt-2 sm:pb-16">
       <Head>
         <title>Ramil Aminov</title>
         <meta name="description" content="Ramil Aminov" />
