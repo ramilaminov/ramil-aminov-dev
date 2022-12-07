@@ -11,7 +11,7 @@ const Home: NextPage = () => {
         <meta name="description" content="Ramil Aminov" />
       </Head>
 
-      <main className="flex w-full flex-1 flex-col items-center justify-center px-6 sm:px-20 text-center">
+      <main className="flex w-full flex-col items-center justify-center px-6 sm:px-20 text-center">
         <Image
           src={photo}
           alt="Ramil Aminov"
